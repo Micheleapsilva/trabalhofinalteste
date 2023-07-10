@@ -26,7 +26,7 @@ class AnimalTest extends TestCase
         $this->assertEquals($raca, $animal->getRaca());
         $this->assertEquals($usuario, $animal->getUsuario());
         $this->assertEquals($foto, $animal->getFoto());
-        $this->assertFalse($animal->iAdotado());
+        $this->assertFalse($animal->getAdotado());
 
         /* assertFalse para verificar se o animal foi não foi adotado   / is é usado no boleano*/
     }

@@ -13,7 +13,7 @@ class Usuario
         $this->cpf = $cpf;
         $this->nome = $nome;
         $this->endereco = $endereco;
-        $this->nome = $telefone;
+        $this->telefone = $telefone;
     }
 
        

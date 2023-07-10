@@ -52,15 +52,18 @@ class SistemaTest extends TestCase
 
     public function testAdotarAnimal()
     {
-        $animal = new Animal('Loki', 2, 'Macho', 'SRD', 'Michele', 'foto.jpg');
+        $animal = new Animal('loki', 2, 'Macho', 'SRD', 'Michele', 'foto.jpg');
         $usuario = new Usuario(1234567890, 'João', 'Rua A', 987654321);
 
-        $sistema = new Sistema([], [$animal], []);
-        $result = $sistema->adotarAnimal(0, 1234567890);
+        $sistema = new Sistema([], [], []);
+        $sistema->cadastroUsuario($usuario);
+        $sistema->cadastroAnimal($animal);
+
+       $result = $sistema->adotarAnimal(0, 1234567890);
 
         $this->assertTrue($result);
      /*assertTrue verifica se a condição booleana é verdadeira.*/
-        $this->assertTrue($animal->isAdotado());
+        $this->assertTrue($animal->getAdotado());
         $this->assertEquals(0, $animal->getIdAnimal());
         $this->assertCount(1, $sistema->getAdocoes());
     }

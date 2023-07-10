@@ -32,6 +32,10 @@ class Animal
     {
         $this->adotado = $adotar;
     }
+    public function getAdotado()
+    {
+        return $this->adotado;
+    }
 
     public function getIdAnimal(){
         return $this->idAnimal;
@@ -81,6 +85,21 @@ class Animal
  
     public function setFoto( $foto){
         $this->foto = $foto;
+    }
+
+    public function getFoto()
+    {
+        return $this->foto;
+    }
+
+
+    public function setUsuario( $usuario)
+    {
+        $this->usuario = $usuario;
+    }
+    public function getUsuario()
+    {
+        return $this->usuario;
     }
 
 }
