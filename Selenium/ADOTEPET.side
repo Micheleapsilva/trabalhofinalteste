@@ -1,0 +1,291 @@
+{
+  "id": "2def0c37-a07e-41d7-bbff-645ff47c5bbc",
+  "version": "2.0",
+  "name": "ADOTEPET",
+  "url": "http://localhost/teste%20ana/TELAS/formUsuario.php",
+  "tests": [{
+    "id": "087294da-e724-49e9-9522-ea90f8c5c6ba",
+    "name": "CAD ANIMAL",
+    "commands": [{
+      "id": "0a714142-a9b8-4a42-986a-13771ab487ca",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/teste%20ana/TELAS/formCadAnimal.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0b28f37-0283-4056-ab79-3a5fa790c042",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b262e55e-b637-4d75-842c-ad7c6abbdd60",
+      "comment": "",
+      "command": "click",
+      "target": "name=nomeAnimal",
+      "targets": [
+        ["name=nomeAnimal", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='nomeAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a888eab9-06d0-428c-9c1f-244edb92f42d",
+      "comment": "",
+      "command": "type",
+      "target": "name=nomeAnimal",
+      "targets": [
+        ["name=nomeAnimal", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='nomeAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "LOKI"
+    }, {
+      "id": "417c0f2b-7b8a-46a1-bbf2-365664d70a6a",
+      "comment": "",
+      "command": "click",
+      "target": "name=idadeAnimal",
+      "targets": [
+        ["name=idadeAnimal", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='idadeAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e8fa12-720d-466a-855b-a0c7108a7adc",
+      "comment": "",
+      "command": "type",
+      "target": "name=idadeAnimal",
+      "targets": [
+        ["name=idadeAnimal", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='idadeAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "9a7bce88-3236-4b57-a386-74297f1c76ee",
+      "comment": "",
+      "command": "click",
+      "target": "name=generoAnimal",
+      "targets": [
+        ["name=generoAnimal", "name"],
+        ["css=p:nth-child(3) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='generoAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ed66535-93fd-4682-a69f-cfbaec933746",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipoAnimal",
+      "targets": [
+        ["name=tipoAnimal", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='tipoAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a3cbb7-c99a-4a61-9acc-829db67b6e64",
+      "comment": "",
+      "command": "click",
+      "target": "name=racaAnimal",
+      "targets": [
+        ["name=racaAnimal", "name"],
+        ["css=p:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='racaAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0375d4b4-226f-4569-bed4-8e33bb0c475d",
+      "comment": "",
+      "command": "type",
+      "target": "name=racaAnimal",
+      "targets": [
+        ["name=racaAnimal", "name"],
+        ["css=p:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='racaAnimal']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "805b4846-9ae1-4833-a7ab-deb77d02236e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(8)",
+      "targets": [
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1db8a570-7b3d-4341-ad28-1af25576d2fb",
+    "name": "CAD USUARIO",
+    "commands": [{
+      "id": "43f45fa5-4cb1-4f05-96c5-a1246f7864c2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/teste%20ana/TELAS/formUsuario.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67a59158-79ef-4898-a1d3-076100ff65d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7b4feee-5711-4d62-870c-0ca373fcfc80",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fed7871-6e94-470c-9a7d-93d640c7e056",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1213456789"
+    }, {
+      "id": "16fbaa89-d6f6-4e08-84d4-4110efa88982",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef67daa-e916-4814-be95-62ed2e4199c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Michele"
+    }, {
+      "id": "b2e8788a-267c-426d-bf8d-bab1b5580d64",
+      "comment": "",
+      "command": "click",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "421343dc-1c82-4f93-be19-9f9c94837232",
+      "comment": "",
+      "command": "type",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "rua"
+    }, {
+      "id": "90cdf704-bde6-4079-8310-47913fa20b2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefone",
+      "targets": [
+        ["id=telefone", "id"],
+        ["css=#telefone", "css:finder"],
+        ["xpath=//input[@id='telefone']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4786a826-43a7-4b40-8ebb-44ae381a7c2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefone",
+      "targets": [
+        ["id=telefone", "id"],
+        ["css=#telefone", "css:finder"],
+        ["xpath=//input[@id='telefone']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "3230315100"
+    }, {
+      "id": "fb3cf25b-a030-4cdd-8754-766f8d643006",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(15)",
+      "targets": [
+        ["css=input:nth-child(15)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "feb76005-2a74-4a5e-ba7f-3ce4d3df7d97",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
